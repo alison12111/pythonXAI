@@ -34,13 +34,11 @@ print(not False)  # True
 # 8.or
 
 # 密碼門檢查
-password = "請輸入密碼"
+password = input("請輸入密碼")
 if password == "123456":
     print("密碼正確")
-elif:   #沒有達成上面條件的其他情況就會執行以下內容
-    print("密碼錯誤")
-elif: password == "123456789":
+elif password == "123456789":
     print("密碼正確")
-else:#沒有達成上面條件的其他情況就會執行以下內容
-    plint("密碼錯誤")
-可以讓使用者輸入數字
+else:  # 沒有達成上面條件的其他情況就會執行以下內容
+    print("密碼錯誤")
+# 可以讓使用者輸入數字
